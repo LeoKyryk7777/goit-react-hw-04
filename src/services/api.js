@@ -7,7 +7,7 @@ export const searchPhotos = async (topic, page = 1) => {
     },
     params: {
       query: topic,
-      per_page: 18,
+      per_page: 15,
       orientation: "landscape",
       page: page,
     },
